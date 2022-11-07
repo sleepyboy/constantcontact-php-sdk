@@ -12,10 +12,13 @@
   "license": "MIT",
   "require": {
     "php": ">=5.5.0",
-    "guzzlehttp/guzzle": "^6.1.1"
+    "guzzlehttp/guzzle": "^7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "4.8.21"
+  },
+  "replace": {
+    "constantcontact/constantcontact": "3.0.*"
   },
   "authors": [
     {
